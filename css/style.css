@@ -1,0 +1,286 @@
+body{
+	background: rgb (224, 232, 234);
+}
+.row{
+	max-width: 100%;
+}
+/*--------- MENU TOP BAR ------------------*/
+.top-bar{
+-moz-box-shadow: 0px 0px 5px 2px #656565;
+-webkit-box-shadow: 0px 0px 5px 2px #656565;
+-o-box-shadow: 0px 0px 5px 2px #656565;
+box-shadow: 0px 0px 5px 2px #656565;
+z-index: 100000;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button){
+	background: transparent;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button):hover{
+	background: transparent;
+	color: #0CB0E5;
+}
+.top-bar-section ul li a{
+	height: 44px;
+}
+.top-bar-section ul li a:hover{
+	border-bottom: 2px solid #0CB0E5;
+	color: #0CB0E5;
+}
+.top-bar-section ul li a:active{
+	border-bottom: 2px solid #0CB0E5;
+	color: #0CB0E5;
+}
+.top-bar-section ul li a:focus{
+	border-bottom: 2px solid #0CB0E5;
+	color: #0CB0E5;
+}
+/*--------------- FIN ----------------------*/
+/*----------------SEEFIRST STYLE ------*/
+.seefirst{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	-moz-box-shadow: 0px 0px 10px 2px #656565;
+-webkit-box-shadow: 0px 0px 10px 2px #656565;
+-o-box-shadow: 0px 0px 10px 2px #656565;
+box-shadow: 0px 0px 10px 2px #656565;
+	height: 500px;
+}
+.seefirst_acceuil{
+	background: url("../img/sharvis.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.row_seefirst_acceuil{
+	background: #FFFFFF;
+}
+.seefirst_evenements{
+	background: url('../img/perso.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -400px;
+}
+.seefirst_marque{
+	/*background: url('../img/Holysheet.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -88px;
+	height: 650px;*/
+	background: url("../img/sharvis.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/*----------- ROW 3 LIENS ----------*/
+
+.row3liens{
+	padding-top: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 900px;
+	margin-bottom: 100px
+}
+.cadreMarque, .cadreEvenements, .cadreContact{
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.cadreMarque img, .cadreEvenements img, .cadreContact img{
+	margin: auto;
+	border: 2px solid transparent;
+	height: 180px;
+}
+.cadreMarque img:hover, .cadreEvenements img:hover, .cadreContact img:hover{
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	border: 2px solid #E44414;
+}
+.cadreMarque p, .cadreEvenements p, .cadreContact p{
+	text-align: center;
+	margin-top: 20px;
+}
+.cadreMarque .button, .cadreEvenements .button, .cadreContact .button{
+	margin-bottom: 15px;
+	background: #E44414;
+	border-radius: 4px;
+	border: 2px solid #E44414;
+
+}
+.cadreMarque .button:hover, .cadreEvenements .button:hover, .cadreContact .button:hover{
+	margin-bottom: 15px;
+	background: #FFFFFF;
+	border-radius: 4px;
+	border: 2px solid #E44414;
+	color: #E44414;
+
+}
+/*------------------ LA MARQUE ----------------------*/ 
+.ligne-texte{
+	margin: auto;
+	background: rgb(224, 232, 234);
+}
+.texte_marque{
+	text-align: center;
+	margin: auto;
+	max-width: 650px;
+	margin-top: 50px;
+}
+.paragraphe p{
+	font-size: 15px;
+	border: 1px solid #ECECEC;
+	border-radius: 2px;
+	padding: 20px;
+}
+.paragraphe p:hover{
+	background: #ECECEC;
+}
+.paragraphe .date{
+	font-weight: bold;
+	font-size: 40px;
+	color: #E44414;
+	font-family: 'Shadows Into Light', cursive;
+	border: none;
+	padding: 0;
+}
+/*---------------- PAGE EVENEMENT ----------*/
+.seefirst_evenements h1{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 60px;
+	position: relative;
+	top: 392px;
+	text-shadow: 0 0 10px black;
+	background: rgba(100, 100, 100, 0.48);
+}
+.texte_evenements{
+	margin: auto;
+	max-width: 650px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	border: 2px solid #E44414;
+	border-radius: 3px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.texte_evenements span{
+	color: #E44414;
+}
+.texte_evenements:hover{
+	background: rgba(255, 255, 255, 0.3);
+}
+.texte_evenements .publication{
+	font-size: 12px;
+	position: relative;
+	bottom: -47px;
+	right: -223px;
+}
+.comm_evenements{
+	width: 60%;
+	margin-top: 30px;
+	margin: auto;
+}
+.comm_evenements label{
+	text-align: center;
+	line-height: 3.5;
+}
+.comm_evenements textarea{
+	min-height: 200px;}
+/*----- FIN -----------------*/
+/*------------------- PAGE CONTACT FORMULAIRE -----------------*/
+.container_form{
+	min-height: 75%;
+	width: 800px;
+	margin-top: 50px;
+	background: #FFFFFF;
+	padding: 30px;
+	-moz-box-shadow: 0px 0px 5px 1px #656565;
+-webkit-box-shadow: 0px 0px 5px 1px #656565;
+-o-box-shadow: 0px 0px 5px 1px #656565;
+box-shadow: 0px 0px 5px 1px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=5);
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+margin-bottom: 50px;
+}
+.container_form p{
+	font-size: 15px;
+	margin: 30px;
+	margin-top: 0;
+	padding-right: 30px;
+	padding-left:  30px;
+	background: rgba(228, 68, 20, 0.63);
+	border-radius: 3px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.container_form form label{
+	text-align: center;
+	line-height: 4.5;
+	color: #E44414;
+
+}
+input[type=text]:focus, textarea:focus{
+	border-color: #0CB0E5;
+	box-shadow: 0 0 5px #0CB0E5;
+}
+.container_form form textarea{
+	height: 200px;
+}
+form .button{
+	background: transparent;
+	border-radius: 3px;
+	color: #E44414;
+	border: 2px solid #E44414;
+}
+form .button:hover, form .button:active, form .button:focus{
+	background: #E44414;
+	color: #FFFFFF;
+	border-radius: 2px solid #E44414;
+}
+.bouton_submit{
+	margin: auto;
+}
+/*------------------FIN ---------*/
+/*------------------- FOOTER ----------------------*/
+.footer{
+	border: 1px solid black;
+	text-align: center;
+	background: #3a3b3c;
+	padding-top: 15px;
+}
+.footer p{
+	display: inline;
+	margin-left: 10px;
+	color: #FFFFFF;
+}
+.footer i{
+	font-size: 20px;
+	color: #0CB0E5;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.sep_footer{
+	width: 50%;
+	margin: auto;
+	margin-top: 10px;
+	border-bottom: 1px solid #0CB0E5;
+	height: 0;
+}
+.footer_droite{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.footer_droite i{
+	font-size: 30px;
+	font-weight: normal;
+}
+.footer_droite i:hover{
+	color: #E44414;
+}
+.footer_droite i:active{
+	color: #E44414;
+}
